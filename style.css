@@ -1204,3 +1204,9 @@ p {
   padding: 10px 15px;
   margin-top: 10%;
 }
+
+@media (max-width: 1300px) {
+  .book {
+    top: 80%; /* Move the book further down on smaller screens */
+  }
+}
